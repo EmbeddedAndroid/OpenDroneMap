@@ -1,5 +1,5 @@
-#Pull in previously built packages image with lots of libraries.
-FROM packages
+#Pull in previously built packages image with lots of libraries
+FROM nwdrone/aarch64-odm-packages
 
 # Prepare directories
 RUN mkdir /code

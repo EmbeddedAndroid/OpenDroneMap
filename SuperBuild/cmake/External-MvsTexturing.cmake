@@ -8,8 +8,8 @@ ExternalProject_Add(${_proj_name}
   STAMP_DIR         ${_SB_BINARY_DIR}/stamp
   #--Download step--------------
   DOWNLOAD_DIR      ${SB_DOWNLOAD_DIR}
-  URL               https://github.com/nmoehrle/mvs-texturing/archive/e695a29505c74be570b8bbb87cf42f5b1611cf60.zip
-  URL_MD5           D11FA3052CEBBF6D34D2072BED6C29FD
+  URL               https://github.com/EmbeddedAndroid/mvs-texturing/archive/7381c879316396af1728ac6095bf23900a30b99c.zip
+  URL_MD5           2c0fd708aa9bfb05db10fea8610678ab
   #--Update/Patch step----------
   UPDATE_COMMAND    ""
   #--Configure step-------------
